@@ -1,0 +1,37 @@
+.sideBar {
+    width: 300px;
+    height: 100vh;
+    background-color: rgb(131, 131, 131);
+    position: absolute;
+    transition: left 0.3s;
+}
+
+.sideBarTitle {
+    color: white;
+    text-align: center;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.option {
+    height: 50px;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
+
+.option:nth-of-type(1) {
+    border-top: 1px solid white;
+}
+
+.option:hover {
+    background-color: rgb(107, 107, 107);
+}
+
+.optionDesc {
+    color: white;
+    text-align: center;
+}
