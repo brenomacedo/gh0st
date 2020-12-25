@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import { FormEvent, useCallback, useRef } from 'react'
 import styles from '../../styles/login.module.css'
 
@@ -9,6 +10,9 @@ export default function Login() {
 
     return (
         <div className={styles.container}>
+            <Head>
+                <title>Login</title>
+            </Head>
             <div className={styles.banner}>
                 <h2 className={styles.welcome}>WELCOME BACK ADMIN</h2>
             </div>
