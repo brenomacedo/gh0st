@@ -1,0 +1,25 @@
+.container {
+    min-height: 100vh;
+    display: flex;
+}
+
+.loginform {
+    width: 400px;
+    min-height: 100vh;
+}
+
+.banner {
+    flex: 1;
+    min-height: 100vh;
+    background-image: url('/bg.jpg');
+    position: relative;
+}
+
+.welcome {
+    color: white;
+    font-size: 40px;
+    width: 50px;
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+}
