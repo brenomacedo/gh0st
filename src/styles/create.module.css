@@ -1,0 +1,49 @@
+.container {
+    min-height: 100vh;
+    background-color: rgb(22, 22, 22);
+    padding: 80px;
+}
+
+.title {
+    color: white;
+    text-align: center;
+}
+
+.textarea {
+    width: 100%;
+    resize: vertical;
+    height: 500px;
+    outline: none;
+    padding: 20px;
+    border-radius: 16px;
+    border: 1px solid #ccc;
+    font-size: 20px;
+}
+
+.postButton {
+    width: 100%;
+    border-radius: 16px;
+    height: 50px;
+    background-color: rgb(101, 74, 255);
+    margin-top: 10px;
+    border: 0;
+    cursor: pointer;
+    transition: 0.5s;
+    color: white;
+}
+
+.postButton:hover {
+    background-color: rgb(50, 50, 255);
+}
+
+.preview {
+    color: white;
+}
+
+.previewContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(135, 43, 255);
+    padding: 80px;
+}

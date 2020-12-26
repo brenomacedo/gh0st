@@ -14,3 +14,41 @@ a {
 * {
   box-sizing: border-box;
 }
+
+[color-blue] {
+  color: rgb(68, 68, 253);
+}
+
+[color-red] {
+  color: rgb(250, 120, 120)
+}
+
+[color-green] {
+  color: rgb(25, 255, 5);
+}
+
+[color-darkgreen] {
+  color: rgb(255, 251, 5)
+}
+
+[weight-bold] {
+  font-weight: bold;
+}
+
+[cite-wrap] {
+  border-radius: 16px;
+  padding: 3px;
+  background-color: rgb(29, 29, 29);
+  color: white;
+  padding-left: 20px;
+  border-left: 6px solid yellow;
+}
+
+[flex-row] {
+  display: flex;
+  flex-direction: row;
+}
+
+[align-center] {
+  text-align: center;
+}

@@ -1,5 +1,5 @@
-import styles from '../../styles/panel.module.css'
-import SideBar from '../../components/SideBar'
+import styles from '../../../styles/panel.module.css'
+import SideBar from '../../../components/SideBar'
 import Head from 'next/head'
 import { FiUser, FiMessageSquare, FiBell } from 'react-icons/fi'
 
