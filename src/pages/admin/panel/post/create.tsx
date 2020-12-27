@@ -12,11 +12,14 @@ export default function Create() {
         <>
             <SideBar />
             <div className={styles.container}>
-                <p className={styles.title}>CREATE POST</p>
-                <textarea value={content} onChange={e => setContent(e.target.value)} className={styles.textarea}>
+                <form>
+                    <p className={styles.title}>CREATE POST</p>
+                    <textarea placeholder="Post content" value={content} onChange={e => setContent(e.target.value)} className={styles.textarea}>
 
-                </textarea>
-                <button className={styles.postButton}>POST</button>
+                    </textarea>
+                    <input placeholder="Image link" type="text" className={styles.imageinput}/>
+                    <button className={styles.postButton}>POST</button>
+                </form>
             </div>
             <div className={styles.previewContainer}>
                 <div className={styles.preview}>

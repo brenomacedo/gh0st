@@ -5,14 +5,20 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "migration:run": "ts-node ./node_modules/typeorm/cli.js migration:run",
+    "migration:revert": "ts-node ./node_modules/typeorm/cli.js migration:revert",
+    "migration:create": "ts-node ./node_modules/typeorm/cli.js migration:creat -n"
   },
   "dependencies": {
     "html-react-parser": "^1.0.0",
     "next": "10.0.4",
+    "pg": "^8.5.1",
     "react": "17.0.1",
     "react-dom": "17.0.1",
-    "react-icons": "^4.1.0"
+    "react-icons": "^4.1.0",
+    "ts-node": "^9.1.1",
+    "typeorm": "^0.2.29"
   },
   "devDependencies": {
     "@types/node": "^14.14.16",
