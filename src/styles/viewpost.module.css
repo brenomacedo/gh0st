@@ -1,0 +1,33 @@
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(135, 43, 255);
+}
+
+.postpreview {
+    min-height: calc(100vh - 80px);
+    width: 100%;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(135, 43, 255);
+    max-width: 1280px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    text-align: center;
+    color: white;
+    background: rgb(29, 29, 29);
+}
+
+.edit {
+    position: absolute;
+    right: 80px;
+    top: 80px;
+    cursor: pointer;
+}

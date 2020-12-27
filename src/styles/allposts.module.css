@@ -1,0 +1,77 @@
+.container {
+    min-height: 100vh;
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.all {
+    color: white;
+    font-size: 30px;
+}
+
+.posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.post {
+    width: 300px;
+    height: 200px;
+    background-color: rgb(252, 78, 78);
+    margin-right: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.postImage {
+    height: 150px;
+}
+
+.title {
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(62, 91, 253);
+}
+
+.edit {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(255, 255, 0);
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(248, 44, 44);
+    top: 10px;
+    left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit:hover {
+    background-color: rgb(255, 145, 0);
+}
+
+.delete:hover {
+    background-color: rgb(212, 0, 0);
+}
