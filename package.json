@@ -8,7 +8,7 @@
     "start": "next start",
     "migration:run": "ts-node ./node_modules/typeorm/cli.js migration:run",
     "migration:revert": "ts-node ./node_modules/typeorm/cli.js migration:revert",
-    "migration:create": "ts-node ./node_modules/typeorm/cli.js migration:creat -n"
+    "migration:create": "ts-node ./node_modules/typeorm/cli.js migration:create -n"
   },
   "dependencies": {
     "html-react-parser": "^1.0.0",
