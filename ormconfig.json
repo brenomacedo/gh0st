@@ -6,13 +6,13 @@
     "password": "123",
     "database": "gh0st",
     "entities": [
-       "src/entity/*.ts"
+       "src/database/entities/*.ts"
     ],
     "migrations": [
        "src/database/migrations/*.ts"
     ],
     "cli": {
-       "entitiesDir": "src/entity",
+       "entitiesDir": "src/database/entities",
        "migrationsDir": "src/database/migrations"
     }
  }

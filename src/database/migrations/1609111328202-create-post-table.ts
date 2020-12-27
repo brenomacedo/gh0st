@@ -19,7 +19,7 @@ export class createPostTable1609111328202 implements MigrationInterface {
                 },
                 {
                     name: 'content',
-                    type: 'longtext'
+                    type: 'text'
                 },
                 {
                     name: 'createdAt',
@@ -29,6 +29,10 @@ export class createPostTable1609111328202 implements MigrationInterface {
                 {
                     name: 'userId',
                     type: 'integer'
+                },
+                {
+                    name: 'thumb',
+                    type: 'varchar'
                 }
             ],
             foreignKeys: [
