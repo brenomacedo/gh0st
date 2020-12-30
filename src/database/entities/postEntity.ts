@@ -1,4 +1,4 @@
-import { Column, Entity, ManyToOne, PrimaryGeneratedColumn } from "typeorm";
+import { Column, Entity, JoinColumn, ManyToOne, PrimaryGeneratedColumn } from "typeorm";
 import User from "./userEntity";
 
 @Entity({
@@ -24,7 +24,11 @@ class Post {
     @Column('integer')
     userId: number
 
-    @ManyToOne(() => User, user => user.id)
+    @ManyToOne(() => User, user => user.posts)
+    @JoinColumn({
+        referencedColumnName: 'id',
+        name: 'userId'
+    })
     user: User
 
 }
