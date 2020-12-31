@@ -5,14 +5,8 @@
     "username": "postgres",
     "password": "123",
     "database": "gh0st",
-    "entities": [
-       "src/database/entities/*.ts"
-    ],
-    "migrations": [
-       "src/database/migrations/*.ts"
-    ],
     "cli": {
-       "entitiesDir": "src/database/entities",
-       "migrationsDir": "src/database/migrations"
+       "entitiesDir": "./src/database/entities",
+       "migrationsDir": "./src/database/migrations"
     }
- }
+}

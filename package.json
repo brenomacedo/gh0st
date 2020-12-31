@@ -11,6 +11,8 @@
     "migration:create": "ts-node ./node_modules/typeorm/cli.js migration:create -n"
   },
   "dependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-proposal-decorators": "^7.12.12",
     "bcrypt": "^5.0.0",
     "html-react-parser": "^1.0.0",
     "next": "10.0.4",

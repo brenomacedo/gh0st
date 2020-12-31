@@ -12,10 +12,10 @@ class Post {
     @Column('varchar')
     title: string
 
-    @Column('longtext')
+    @Column('text')
     content: string
 
-    @Column('datetime')
+    @Column('timestamp')
     createdAt: Date
 
     @Column('varchar')
